@@ -1,4 +1,4 @@
-export default  collections =  [
+export default  [
     {
       "collectionName": "About Life Insurance",
       "articles": [
@@ -25,3 +25,4 @@ export default  collections =  [
       ]
     }
   ]
+
