@@ -5,10 +5,6 @@ import {
 	Button
 } from '../index.js'
 
-
-
-
-
 export default class Application extends Component {
 	constructor(props) {
 	  super(props);
@@ -26,7 +22,6 @@ export default class Application extends Component {
    			author,
    			body
    		})
-
    }
 
    
@@ -35,12 +30,11 @@ export default class Application extends Component {
    	return (
    	   collections.map((el, i) => {
    	   		var targetName = el.collectionName.split(" ")[i]
-
    	   		return (
    	   			<div key={i}>
 				  <p>
-					<Button targetName={targetName}
-					        el={el}/>
+					     <Button targetName={targetName}
+					                      el={el}/>
 				  </p>
 				  <div className="collapse" id={targetName}>
 				    <div className="card card-body">
